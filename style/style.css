@@ -1,4 +1,17 @@
-h1 {color: red;}
+@font-face{
+    font-family: "smooch";
+    src: url("fonts/Smooch-Regular.ttf");
+    font-weight: 200;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed:wght@700&display=swap');
+h1 {color: red;
+    font-family: 'PT Sans', sans-serif;
+    }
 p {color: green;
-font-size: 24px;}
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;}
 li {color: orange;}
+img {
+    width: 200px;
+    margin: 50px;
+}
